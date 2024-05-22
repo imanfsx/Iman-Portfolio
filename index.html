@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMAN SOHAIL | FRONT END DEVELOPER</title>
+    <meta
+      name="description"
+      content="Iman Sohail is a front-end developer, with a background in research, insights and marketing."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@200;400;600;800&family=Montserrat:wght@100;300;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/ba7644823c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  </head>
+  <body class="background-color">
+    <div class="container-sm">
+      <nav class="navbar navbar-expand-lg bg-none container-fluid">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand fs-1"
+            id="logo"
+            href="/home.html"
+            title="Homepage"
+            >i.f.s 🎀</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav fs-5">
+              <a class="mx-3 nav-color active" href="index.html">HOME</a>
+              <a class="mx-3 nav-color" href="about.html">ABOUT ME</a>
+              <a class="mx-3 nav-color" href="projects.html">MY PROJECTS</a>
+              <a class="mx-3 nav-color" href="contact.html">CONTACT ME</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="col-md-8">
+        <div class="p-3 text-start">
+          <h2 class="text-black text-start hello-intro">+++</h2>
+          <h1 class="name-intro fw-semibold mb-4" id="typewrite-name">
+            > Iman Sohail
+          </h1>
+          <h3 class="text-start">
+            <strong
+              >Research Scientist by Qualification. Aspiring Programmer.</strong
+            ><br />
+            I like making data look pretty. And learning to code.<br />
+          </h3>
+        </div>
+      </div>
+
+      <div class="container-md homepage-2-container">
+        <h2 class="latest-projects-title">MY CODING PROJECTS 👩🏽‍💻</h2>
+        <h3 class="latest-projects-description">
+          Have a look at my coding journey. You will see my progress as I
+          improve my skills.
+        </h3>
+        <br />
+
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-md-4">
+              <a href="projects.html#weather-app" class="homepage-2-button"
+                >An Interactive Weather App</a
+              >
+              <img
+                src="images/laptopweather.PNG"
+                alt="Weather App"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-md-4">
+              <a href="projects.html#world-clock" class="homepage-2-button"
+                >A Dynamic World App</a
+              >
+              <img
+                src="images/laptopworldclock.PNG"
+                alt="World Clock App"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-md-4">
+              <a href="projects.html#song-generator" class="homepage-2-button"
+                >A Quirky Travel AI App</a
+              >
+              <img
+                src="images/laptopai.PNG"
+                alt="homepage-2-button"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-lg homepage-3-container">
+        <h2 class="hp-contact-header">Let's Work Together!</h2>
+        <a href="contact.html" class="hp-contact-button mt-3">Contact Me</a>
+      </div>
+    </div>
+    <hr />
+    <footer>
+      <div class="container container-fluid px-0">
+        <div class="row align-items-center">
+          <div class="col-1 justify-content-start">
+            <a href="home.html" class="logo" title="HOMEPAGE">i.f.s 🎀</a>
+          </div>
+          <div
+            class="col-11 social-icons d-inline-flex align-items-center justify-content-end"
+          ><i class="fas fa-envelope fa-xl d-block d-sm-none"></i
+            ></a>
+            <a
+              href="https://www.github.com/imanfsx"
+              target="_blank"
+              title="GitHub Profile"
+              ><i class="fab fa-github fa-xl"></i
+            ></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h6 class="opacity-50 mt-3">Coded with 💗 by Iman Sohail</h6>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        new Typewriter("#typewrite-intro", {
+          strings: "> Hi, I'm Iman Sohail 🎀",
+          autoStart: true,
+          delay: 100,
+          pauseFor: 3000,
+        });
+      });
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
